@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Giulio Fella's Research Page</title>
+<link rel="stylesheet" href="../../css/stylesheet.css">
+</head>
+<body>
+
+<!-- Main content -->
+<div id="container">
+
+	<!-- Banner -->
+	<div id="banner">
+	<h1><a href="../../index.html">Giulio Fella</a></h1>
+	</div>
+
+	<!-- Site navigation menu -->
+	<div id=navbar>
+	<ul>
+  	  <li><h4><a href="../../research/pdf/cv.pdf">Curriculum Vitae</a></h4>
+	 
+	  <li><h4><a href="../../research/research.html">Research</a></h4>
+
+  	  <li><h4 style="padding-bottom:0.5em"><a href="../teaching.html">Teaching</a></h4>
+  	  <ul>
+	    <li style="padding: 0.5em 0"> <a style="font-size: 85%"
+	    href="../macro1/macro1.html">macro 1</a> 
+		
+	    <li style="padding: 0.5em 0"><a style="font-size: 85%"
+	    href="macrob.html"><strong>macro B</strong></a> 
+	  </ul>
+		  
+
+	  <li><h4 style:"padding-top: 0.5em"><a href="diigo.html">My
+  	  not-a-blog</a></h4>
+
+	  <li><h4><a href="../../index.html">Contact Info</a></h4>
+	</ul>
+</div>
+
+	<!-- Main Content -->
+	<div id="content">
+	<h3>ECOM 009 - Macroeconomics B</h3>
+	
+	<p>Instructor: Giulio Fella. Office hours: Thursday 1-3p.m. Room
+	W302 <br /> 
+
+	Lectures: Friday 14-17, B.R. 3.02 <br />
+	
+	<P>The <a href="syllabus.pdf">syllabus</a> contains all the
+	relevant information about the course. <br /> 
+
+	<p>Every Thursday I will post below a brief description of the
+	topics covered in the week's lecture together with a link to the
+	relevant set of lecture notes and problem set. All links are
+	grouped at the bottom of this page (<span style="color:red">note
+	that the links will be activated week by week</span>).
+
+
+	<p>Lecture notes: <a href="lecture_notes/ln1.pdf">LN
+	1</a>|<a href="lecture_notes/ln2.pdf">LN
+	2</a>|<a href="lecture_notes/ln3.pdf">LN
+	3</a>|<a href="lecture_notes/ln4.pdf">LN
+	4</a>|<a href="lecture_notes/ln5.pdf">LN
+	5</a>|<a href="lecture_notes/ln6.pdf">LN
+	6</a>|<a href="lecture_notes/ln7.pdf">LN
+	7</a>|<a href="lecture_notes/ln8.pdf">LN
+	8</a>|<a href="lecture_notes/ln9.pdf">LN
+	9</a>|<a href="lecture_notes/ln10.pdf">LN 10
+	</a>
+
+	<p><p>Problem sets: <a href="psets/pset1.pdf">PSET
+	1</a>|<a href="psets/pset2.pdf">PSET
+	2</a>|<a href="psets/pset3.pdf">PSET
+	3</a>|<a href="psets/pset4.pdf">PSET
+	4</a>|<a href="psets/pset5.pdf">PSET
+	5</a>|<a href="psets/pset6.pdf">PSET
+	6</a>|<a href="psets/pset7.pdf">PSET
+	7</a>|<a href="psets/pset8.pdf">PSET
+	8</a>|<a href="psets/pset9.pdf">PSET
+	9</a>|<a href="psets/pset10.pdf">PSET 10
+	</a>
+
+	</div>
+<div id="footer">
+
+<script type="text/javascript" src="../../js/update.js">
+</script>
+
+</div>
+
+</div>
+</body>
+</html>
+

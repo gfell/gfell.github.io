@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Giulio Fella's Code Page</title>
+<meta name="description" content="Page containing code for generalized
+endogenous grid method, quicksort algorithm, interpolation and hybrid
+Newton-bisection solver." />
+<link rel="stylesheet" href="../../css/stylesheet.css">
+</head>
+<body>
+
+<!-- Main content -->
+<div id="container">
+
+	<!-- Banner -->
+	<div id="banner">
+	<h1><a href="http://www.giuliofella.net">Giulio Fella</a></h1>
+	</div>
+
+	<!-- Site navigation menu -->
+	<div id=navbar>
+	<ul>
+  	  <li><h4><a href="../pdf/cv.pdf">Curriculum Vitae</a></h4>
+	 
+	  <li><h4><a href="../research.html">Research</a></h4>
+
+	  <li><h4><a href="code.html"><strong>Codes</strong></a></h4>
+  	  
+	  <li><h4><a href="../../teaching/teaching.html">Teaching</a></h4> 
+
+	  <li><h4><a href="http://www.diigo.com/list/giu123/list-2010011008031995">My not-a-blog</a></h4> 
+
+	  <li><h4><a href="http://www.giuliofella.net">Contact Info</a></h4>
+	</ul>
+</div>
+
+	<!-- Main Content -->
+	<div id="content">
+
+	  This page links to computer codes from my papers and
+	  some snippets of code for dealing with well-known problems
+	  for which I struggled to find existing code with reasonable
+	  licensing terms;
+	  e.g. see <a href="http://mingus.as.arizona.edu/~bjw/software/boycottnr.html">this
+	  page</a> for a discussion of problems with the Numerical
+	  Recipes's license terms.
+
+	  <p> Most of the codes are available on
+	  my <a href="https://github.com/gfell"><strong>GitHub</strong></a>
+	  profile. 
+	  
+
+	  <ol>
+
+  	  <li style="padding-bottom:0.5em"> <a href="https://github.com/gfell/nsmarkov-fortran">Fortran
+              90</a>
+              and <a href="https://github.com/gfell/nsmarkov-matlab">Matlab</a>
+              implementations of the non-stationary extensions of
+            <a href="https://www.sciencedirect.com/science/article/pii/0165176586901680">Tauchen
+	      (1986)</a>
+	      and <a href="https://ideas.repec.org/a/red/issued/09-115.html">Rouwenhorst
+	      (1995)</a> discretization methods described in my paper
+	      ,&quot;<a href="../pdf/fgp.pdf">Markov-Chain
+	      Approximations for Life-Cycle Models</a>,&quot; (joint
+	      with Giovanni Gallipoli and Jutong Pan). <em> Review of
+	      Economic Dynamics,</em> 2019, 34, 186-201.
+  
+    	  <li style="padding-bottom:0.5em"> <a href="https://github.com/gfell/dfp_markov">R
+          code</a> to estimate a (possibly non-stationary)
+          first-order, Markov chain from a panel of observations,
+          according to the method in my
+          paper &quot;<a href="../pdf/w24326.pdf">Nonlinear household
+          earnings dynamics, self-insurance, and welfare</a>,&quot;
+          (joint with Mariacristina De Nardi and Gonzalo Paz-Pardo),
+          forthcoming <em>Journal of the European Economic
+          Association.</em>
+
+	  <li  style="padding-bottom:0.5em"> <a href="GLOBAL_EGM_DIST.zip">Fortran
+          90 code</a> for my paper. &quot;<a href="../pdf/egm.pdf">A Generalized
+	  Endogenous Grid Method for Non-Smooth and Non-Concave
+	  Problems"</a>,&quot; <em>The Review of Economic
+	  Dynamics</em>, 2014, 17(2), 329-344.</a> 
+
+         <li style="padding-bottom:0.5em"> <a href="https://github.com/gfell/gf_solver">Fortran
+         90 module</a> to find the zero of a function using either the
+         simple Newton method or a hybrid Newton-bisection method. The
+         Newton solver switches to the hybrid solver if it does not
+         locate a zero within a given number of iterations.
+   
+	   <li style="padding-bottom:0.5em"> <a href="https://github.com/gfell/gf_qsort">Fortran
+	   90 module</a> to sort a real array using the Quicksort method
+	   and provide the corresponding permutation of the array index. It
+	   adapts <a href="http://www.fortran.com/qsort_c.f95">Walt
+	   Brainerd's code</a> to compute the permuted index array.
+
+          <li style="padding-bottom:0.5em"> <a href="https://github.com/gfell/gf_int_node">Fortran
+          90 module</a> to find the index of the right interpolating
+          node for each data point in an ordered array. It speeds up
+          computation by exploiting the ordering of both the array of
+           interpolating nodes and of the array of data points. It
+          contains the subroutine <strong>sub_int_node</strong> for
+          standard interpolation and the
+          subroutine <strong>sub_integm_node</strong> for applying
+          Carroll's
+          (2006) <a href="http://ideas.repec.org/a/eee/ecolet/v91y2006i3p312-320.html">Method
+                 of Endogenous Gridpoints </a> with an
+                 occasionally-binding borrowing constraint. <strong>sub_integm_node</strong> returns
+          index 0 to flag data points for which the borrowing constraint
+          is binding and the solution can be computed analytically.
+
+	</ol><br />
+</div>
+<div id="footer">
+
+<script type="text/javascript" src="../js/update.js">
+</script>
+
+</div>
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,94 @@
+body,#banner,#navbar,#footer {	
+	 	margin: 0;
+		padding: 0;
+}
+
+body{background-color:#eceef6}
+
+h1 {font-family: Helvetica, Arial, sans-serif }
+
+a {text-decoration: none}
+a:hover {text-decoration: underline}
+
+p.small {line-height: 70%; color:blue}
+
+ul.plain {list-style-type: none; margin: 0; padding:0}
+li.plain {list-style-type: none; margin: 0; padding:1em}
+
+
+/* Container */
+#container {    margin: 0 5%;
+		background-color: #fff;	
+}		
+
+
+/* Top banner */
+#banner	{	font-family: Arial,Helvetica,sans-serif;
+}
+
+#banner a {color: #483D8B}
+		
+#banner h1 {	margin:0 25px;
+		padding: 1em 0; 
+		font-weight: normal;
+}
+
+
+/* Left vertical navigation bar	*/
+#navbar	{	float: left;
+		width: 160px;
+		font-family: Arial,Helvetica,sans-serif;
+}
+		
+#navbar p { margin-top: 0; }
+
+#navbar ul{	list-style-type: none;
+    		position: relative;
+    		left: 25px;
+    		width: 9em; 
+		margin: 0;
+		padding: 0;
+}
+
+#navbar a {	color: #483D8B;
+		font-weight: normal;
+}
+
+#navbar h4 {	font-weight:normal;
+		padding: 1em 0;
+		margin:0;
+}
+
+
+/* Main content */
+#content
+	{ 	font-family: "trebuchet ms";"Lucida Grande","Lucida Sans
+	Unicode",Arial,Helvetica,sans-serif; 
+		padding-top: 0;
+		margin: 0 2em 0 200px;
+		font-size: 85%;
+		}
+
+#content h3 {	color:#483D8B; 
+		font-weight: normal;
+		margin-top: 0; 
+		font-family: Helvetica, Arial, sans-serif;
+}
+
+#content h4 {	font-weight: normal;
+}
+
+#content a {	color:#445aa9;
+}
+
+#content a.small {text-decoration:underline; line-height: 70%; color:blue}
+
+
+/* Footer */		
+#footer{	float: bottom;
+		clear: both;
+		padding: 1em;
+		text-align: right;
+		color:#00236B;
+		font-size: 80%;
+}
